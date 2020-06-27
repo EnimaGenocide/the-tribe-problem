@@ -32,3 +32,4 @@ begin
  writeln(res);
  readln;
 end.
+
