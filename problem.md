@@ -5,3 +5,4 @@ Taking advantage of the chance to visit the island he did not waste time conduct
 He met them one by one on the island with a single question: "How many people are there on your island?" 
 From the survey results, he identified the number of different tribes that exist on the island.
 Example:if n = 10 and the answers are 5, 1, 2, 5, 5, 2, 5, 5, 2, 2 then there are 4 tribes exist on the island
+
