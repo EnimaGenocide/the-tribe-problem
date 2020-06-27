@@ -1,0 +1,34 @@
+const nmax=3000000+5;
+var
+D:array[0..nmax]of longint;
+N,i,j,res:longint;  error : integer; UI1,UI2: string;
+procedure nhap;
+ begin
+  repeat
+   writeln('Type in the number of people who replied to the Anthropologist"' + 's question : ');
+   readln(UI1);
+   val(UI1,N,error);
+  until error = 0;
+  fillchar(d,sizeof(d),0);
+  writeln('Type in the answers of the people on the island : ');
+  for i:=1 to N do
+    begin
+      repeat
+        readln(UI2);
+        val(UI2,j,error);
+      until error = 0;
+      inc(d[j]);
+    end;
+end;
+procedure xuli;
+ begin
+  res:=0;
+  for i:=1 to n do res:=res+d[i] div i;
+ end;
+
+begin
+ nhap; xuli;
+ writeln('The number of tribes on the island: ');
+ writeln(res);
+ readln;
+end.
